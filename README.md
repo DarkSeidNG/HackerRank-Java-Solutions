@@ -1,2 +1,2 @@
 # HackerRank-Java-Solutions
-My solutions to java qquestions on hackerrank.com, some answers are not optimized, contributors are welcome
+My solutions to java questions on hackerrank.com, some answers are not optimized, contributors are welcome
