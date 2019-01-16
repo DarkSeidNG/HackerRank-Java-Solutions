@@ -1,0 +1,27 @@
+package java_stdin_stdout_2;
+
+import java.util.Scanner;
+
+/**
+ * The type Solution.
+ */
+public class Solution {
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        String s = scan.nextLine();
+        s = scan.nextLine();
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
