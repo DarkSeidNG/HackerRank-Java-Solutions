@@ -13,16 +13,14 @@ public class Solution {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("================================");
         for(int i=0;i<3;i++)
         {
-            String s1=sc.next();
-            int x=sc.nextInt();
+            String string = scanner.next();
+            int x = scanner.nextInt();
 
-            System.out.printf("%-15s%03d%n", s1, x);
-
-            //Complete this line
+            System.out.printf("%-15s%03d%n", string, x);
         }
         System.out.println("================================");
 
